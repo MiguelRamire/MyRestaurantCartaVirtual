@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+
+
+    <string name="title_activity_sede">SedeActivity</string>
+    <string name="title_activity_menú">CartaActivity</string>
+    <string name="title_activity_reserva">ReservaActivity</string>
+
+
+    <string name="titulo">My Restaurant</string>
+
+
+    <string name="sedes">Conoce nuestras ubicaciones</string>
+    <string name="menú">Conoce nuestros productos</string>
+    <string name="reservas">Contactanos para hacer tu reserva</string>
+
+    <string-array name="categorias">
+
+        <item>Entradas</item>
+        <item>Comienza tu experiencia con deliciosas entradas.</item>
+
+        <item>Platos Fuertes</item>
+        <item>Descubre platos principales que satisfacen todos los gustos.</item>
+
+        <item>Bebidas</item>
+        <item>Refresca tu paladar con una variedad de bebidas.</item>
+
+        <item>Postres</item>
+        <item>Endulza tu día con una selección de postres irresistibles.</item>
+
+        <item>Licores</item>
+        <item>Explora el mundo de los licores con recomendaciones de licores clásicos.</item>
+
+    </string-array>
+
+    <!--Información Productos-->
+    <string-array name="entradas">
+
+        <item>Empanadas - Precio: $2.500 </item>
+        <item>Deliciosas empanadas de carne, pollo o queso, fritas al punto perfecto.</item>
+
+        <item>Patacones - Precio: $8.000 (porción)</item>
+        <item>Plátano verde frito y aplastado, crujiente por fuera y suave por dentro.</item>
+
+        <item>Sopa de zanahoria - Precio: $10.000 (porción)</item>
+        <item>Sopa cremosa y reconfortante, perfecta para comenzar una comida.</item>
+
+        <item>Deditos de Quesos - Precio: $12.000 (porción)</item>
+        <item>Bastones de queso empanizados y fritos, ideales para compartir.</item>
+
+        <item>Pande Queso - Precio: $1.500</item>
+        <item>Panecillos suaves y esponjosos hechos con queso.</item>
+
+    </string-array>
+
+    <string-array name="Platos_Fuertes">
+
+        <item>Sancocho - Precio: $18.000 </item>
+        <item>Sopa tradicional colombiana con carne, yuca, plátano y papa.</item>
+
+        <item>Bandeja Paisa _ Precio: $25.000</item>
+        <item>Un clásico colombiano con frijoles, arroz, carne, chicharrón, huevo y más.</item>
+
+        <item>Frijoles - Precio: $15.000 (porción)</item>
+        <item>rojos cocidos con carne y plátano maduro, acompañados de arroz.</item>
+
+        <item>Mondongo - Precio: $20.000 (porción)</item>
+        <item>Sopa espesa hecha con callos de res, verduras y especias.</item>
+
+        <item>Tilapia - Precio: $22.000</item>
+        <item>Tilapia con ingredientes frescos y deliciosos.</item>
+
+    </string-array>
+
+    <string-array name="Bebidas">
+
+        <item>Cocacola - Precio: $4.000 (500 ml)</item>
+        <item>Refresco de cola clásico, perfecto para acompañar cualquier comida.</item>
+
+        <item>Pepsi - Precio: $3.500 (500 ml)</item>
+        <item>Refresco de cola con un sabor único y refrescante.</item>
+
+        <item>Limonada - Precio: $6.000 (vaso)</item>
+        <item>Bebida refrescante hecha con limón natural y un toque de dulce.</item>
+
+        <item>Agua de Coco - Precio: $7.000 (vaso).</item>
+        <item>Bebida natural y refrescante, ideal para hidratarse.</item>
+
+        <item>Soda Saborizada - Precio: $3.500 (500 ml)</item>
+        <item>Refresco en sabores como manzana, uva o naranja.</item>
+
+    </string-array>
+
+    <string-array name="Postres">
+
+        <item>Tiramisu - Precio: $12.000 (porción)</item>
+        <item>Postre italiano con capas de bizcocho, café y crema de mascarpone.</item>
+
+        <item>Flan - Precio: $8.000 (porción)</item>
+        <item>Postre cremoso de caramelo, suave y delicioso.</item>
+
+        <item>Helado - Precio: $2.000 (bola)</item>
+        <item>Helado cremoso en diversos sabores, perfecto para refrescarse.</item>
+
+        <item>Oreo - Precio: $5.000 (porción)</item>
+        <item>Galletas Oreo acompañadas de leche o como parte de un postre.</item>
+
+        <item>Fresas con Crema - Precio: $10.000 (porción)</item>
+        <item>Fresas frescas con crema batida y un toque de azúcar.</item>
+
+    </string-array>
+
+    <string-array name="Licores">
+
+        <item>Aguardiente Antioqueño - Precio: $15.000 (trago)</item>
+        <item>Licor tradicional colombiano con sabor a anís.</item>
+
+        <item>Smirnoff - Precio: $18.000 (trago)</item>
+        <item>Vodka suave y versátil, ideal para cocteles.</item>
+
+        <item>Corona - Precio: $8.000 (botella)</item>
+        <item>Cerveza mexicana ligera y refrescante.</item>
+
+        <item>Aguila - Precio: $6.000 (botella)</item>
+        <item>Cerveza colombiana, suave y fácil de tomar.</item>
+
+        <item>Pilsen - Precio: $7.000 (botella)</item>
+        <item>Cerveza clásica con un sabor equilibrado y refrescante.</item>
+
+    </string-array>
+
+</resources>
