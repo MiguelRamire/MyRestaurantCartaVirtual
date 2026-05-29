@@ -1,12 +1,14 @@
 # MyRestaurant — Carta Virtual
 
-Aplicación móvil Android que permite a los clientes de un restaurante consultar el menú por categorías, ver la información de las sedes y realizar reservas directamente a través de WhatsApp.
+Aplicación móvil Android que permite a los clientes de un restaurante consultar el menú por categorías, ver la ubicación de las sedes en un mapa y realizar reservas directamente a través de WhatsApp.
 
 ---
 
 ## Descripción
 
 MyRestaurant es una carta virtual que busca reemplazar el menú físico con una experiencia digital sencilla, organizada y fácil de navegar desde cualquier dispositivo Android.
+
+Las ubicaciones del restaurante son ficticias y fueron definidas con fines demostrativos.
 
 ---
 
@@ -20,15 +22,16 @@ MyRestaurant es una carta virtual que busca reemplazar el menú físico con una 
   - Postres
   - Licores
 - Vista de detalle por categoría con nombre, descripción y precio de cada plato
-- Información de sedes del restaurante
+- Mapa interactivo con Google Maps que muestra las sedes del restaurante. Al tocar cada marcador se despliega una ventana personalizada con el nombre del sector, número de habitantes e imagen de la zona
 - Reserva directa vía WhatsApp con mensaje predefinido
 - Verificación de instalación de WhatsApp con mensaje de error si no está disponible
 
 ---
 
-## Conocido
+## Problemas conocidos
 
 - El botón de Promociones está visible en la pantalla principal pero aún no está implementado. Al presionarlo la aplicación se cierra. Se encuentra pendiente para una próxima versión.
+- En dispositivos Android con modo oscuro activado, el texto de las ventanas de información de los marcadores en el mapa no es visible. El contenido se muestra correctamente al usar el modo claro. Este comportamiento es propio del componente InfoWindow de Google Maps en Android y no afecta la funcionalidad de la pantalla.
 
 ---
 
@@ -88,6 +91,7 @@ MyRestaurant es una carta virtual que busca reemplazar el menú físico con una 
 | Java | Lenguaje principal |
 | Android Studio | Entorno de desarrollo |
 | Android SDK 34 | Compilacion y target |
+| Google Maps SDK | Mapa interactivo con marcadores y ventanas personalizadas |
 | Intents | Navegacion entre pantallas |
 | ListView + BaseAdapter | Listado de categorias y platos |
 | WhatsApp URI API | Integracion para reservas |
@@ -109,7 +113,7 @@ MyRestaurantCartaVirtual/
     │   ├── PostresActivity.java       # Categoria: Postres
     │   ├── LicoresActivity.java       # Categoria: Licores
     │   ├── PromocionActivity.java     # Promociones (no implementado)
-    │   ├── SedeActivity.java          # Informacion de sedes
+    │   ├── SedeActivity.java          # Mapa de sedes con Google Maps
     │   ├── ReservaActivity.java       # Pantalla de reserva
     │   └── Plato.java                # Modelo de datos: plato y categoria
     └── res/                          # Recursos (layouts, imagenes, strings)
